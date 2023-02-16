@@ -64,6 +64,7 @@
   		       A.MENU_NAME = #{ name }
   	 	     , A.MENU_PRICE = #{ price }
   	 	     , A.CATEGORY_CODE = #{ categoryCode }
+  	 	     , A.ORDERABLE_STATUS
   	 	 WHERE A.MENU_CODE = #{ code }    
   	 	       	   		
   	 
